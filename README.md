@@ -33,6 +33,15 @@ This smart lamp hosts its own Wi-Fi network and interactive **web dashboard** �
 
 >  If you have a **common anode LED**, invert the PWM logic (e.g., `analogWrite(PIN_R, 1023 - toPwm(valR));`).
 
+> Add ESP8266 Board to Arduino IDE:
+1. Open Arduino IDE → File → Preferences
+2. In the “Additional Boards Manager URLs” field, paste this line:
+ " https://arduino.esp8266.com/stable/package_esp8266com_index.json "
+3. Go to Tools → Board → Boards Manager
+4. Search for ESP8266 → click Install
+5. Then select your board:
+6. Tools → Board → NodeMCU 1.0 (ESP-12E Module)
+   
 ---
 
 ##  Requirements
